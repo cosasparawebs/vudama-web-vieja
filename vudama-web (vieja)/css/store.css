@@ -1,0 +1,207 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Raleway', sans-serif;
+}
+
+
+body{
+background: url(https://i.ibb.co/pxSmFx1/fondo2-2.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+.contenedor{
+width: 100%;
+height: 100%;
+text-align: center;
+align-items: center;
+
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* ------------TITULOS SECCIONES */
+.titulos {
+    border-left: 36px solid rgba(160, 18, 18, 0.8);
+    text-transform: uppercase;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 3.5px;
+    margin: 5% 5% 3% 5%;
+  }
+  .titulos h2{
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 65px;
+  }
+
+
+
+/* -------------------------------------------------
+---aca empieza el muenu
+------------------------------------------------- */
+
+
+nav {
+    background-color: #1E1E23;
+    height: 65px;
+    margin-bottom: 20px;
+}
+
+#menu
+{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 0 10px #85888C;
+    margin: -50px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    background: #1E1E23;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+/* -------------------FOOTER  */
+.footer{
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+  }
+  
+  .footer p{
+    display: flex;
+    justify-content: center; 
+    margin: 15px auto;
+    font-weight: bold;
+    color: #fff;
+  }
+
+/* ------------------CONSTRUCCION  */
+
+.proximamente{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.construccion{
+    width: 300px;
+    max-width: 300px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+}
+
+.construccion span i{
+    font-size: 150px;
+}
+
+.volver{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30%;
+}
+
+.volver a{
+    background: rgba(160, 18, 18, 0.8);
+    text-decoration: none;
+    border: none;
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.volver a:hover{
+    background: rgba(114, 17, 17, 0.8);
+}
+
+@media screen and (max-width: 1050px){
+
+  .titulos{
+    border-left: 25px solid #a01212;
+    height: 90px;
+  }
+
+  .titulos h2{
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 400px){
+
+  body{
+    background: url(https://i.ibb.co/Xjwv6dw/fondo2-2-vertical.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+    .titulos{
+      border-left: 15px solid #a01212;
+      height: 60px;
+    }
+  
+    .titulos h2{
+      font-size: 20px;
+    }
+  
+
+    .construccion{
+      width: 200px;
+      max-width: 200px;
+      height: 130px;
+      margin-top: 30px;
+  }
+  
+  .construccion span i{
+      font-size: 70px;
+  }
+
+
+.volver a{
+  background: rgba(160, 18, 18, 0.8);
+  text-decoration: none;
+  border: none;
+  width: 150px;
+  height: 70px;
+  border-radius: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  }
